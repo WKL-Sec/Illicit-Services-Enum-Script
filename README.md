@@ -1,6 +1,8 @@
 # Illicit-Services-Enum-Script
 
-This script generates a URL with GET parameters based on the provided arguments and fetches records from the Illicit Services API. It helps you search and filter email addresses based on various parameters such as first name, last name, username, phone number, address, etc. It also supports filtering emails by domain and limiting the number of requests. The script uses the API from the following site:
+This script generates a URL with GET parameters based on the provided arguments and fetches records from the Illicit Services API. It helps you search and filter email addresses based on various parameters such as first name, last name, username, phone number, address, etc. It also supports filtering emails by domain and limiting the number of requests. 
+
+The script uses the API from the following site:
 
 Illicit Services
 - https://search.illicit.services/
