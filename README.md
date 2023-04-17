@@ -10,7 +10,7 @@ Illicit Services
 Blog Post
 - [Unveiling OSINT Techniques: Exploring LinkedIn, Illicit Services, and Dehashed for Information Gathering](https://whiteknightlabs.com/2023/04/15/unveiling-osint-techniques-exploring-linkedin-illicit-services-and-dehashed-for-information-gathering/)
 
-Requirements
+## Requirements
 To run the script, you need to install the following Python packages:
 
 - argparse
