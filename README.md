@@ -3,7 +3,7 @@
 This script generates a URL with GET parameters based on the provided arguments and fetches records from the Illicit Services API. It helps you search and filter email addresses based on various parameters such as first name, last name, username, phone number, address, etc. It also supports filtering emails by domain and limiting the number of requests. The script uses the API from the following site:
 
 Illicit Services
-- (https://search.illicit.services/)
+- https://search.illicit.services/
 
 Blog Post
 - [Unveiling OSINT Techniques: Exploring LinkedIn, Illicit Services, and Dehashed for Information Gathering](https://whiteknightlabs.com/2023/04/15/unveiling-osint-techniques-exploring-linkedin-illicit-services-and-dehashed-for-information-gathering/)
