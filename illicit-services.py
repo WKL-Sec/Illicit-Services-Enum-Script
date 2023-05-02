@@ -11,8 +11,7 @@ def fetch_emails(base_url, email_addresses, headers, proxies, args):
     all_emails = set(email_addresses)
 
     #print('New email addresses found:')
-    request_count = 0
-    for email in email_addresses:
+    for request_count, email in enumerate(email_addresses):
         if request_count >= args.max_requests:
             print(f'Maximum limit of {args.max_requests} requests reached.')
             break
@@ -29,7 +28,6 @@ def fetch_emails(base_url, email_addresses, headers, proxies, args):
                     if not args.email_domain or (args.email_domain and new_email.split('@')[-1] == args.email_domain):
                         all_emails.add(new_email)
                         #print(new_email)
-        request_count += 1
 
     print('All email addresses:')
     for email in all_emails:
